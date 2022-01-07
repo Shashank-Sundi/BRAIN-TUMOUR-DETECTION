@@ -12,7 +12,7 @@
 ## Deployments
 * Azure : http://brain-tumor-detection-sundi.azurewebsites.net/
 
-* Heroku :  https://insurance-fraud-detector-sundi.herokuapp.com/
+* Heroku : https://brain-tumor-detection-sundi.herokuapp.com/
 
 <hr>
 
@@ -35,6 +35,8 @@ Brain Tumors are complex. There are a lot of abnormalities in the sizes and loca
     object-position: 20% 60%;" alt="affair" />
 <hr>
 
+## Results
+
 |**Models**| **VGG-19** | **Alexnet**  | **Resnet-101**  | **Resnet-50** | **Inception-V3** |**Effiecient Net**|**DenseNet**|**Googlenet**|
 | :---| :-------- | :------- | :------------------------- | :-------| :-------| :-------| :-------| :-------|
 |**Accuracy**|89.91|89.45|82.03|82.27|81.47|81.35|81.57|78.78|
@@ -42,62 +44,17 @@ Brain Tumors are complex. There are a lot of abnormalities in the sizes and loca
 |**Precision**|90.29|88.83|80.66|80.11|81.16|82.99|79.56|78.37|
 |**Model Size**|549mb|233mb|171mb|97.8mb|104mb|255mb|30.8mb|49.7mb|
 
-
-<hr>
-
-## Project Execution
-
-### (A) **Analysis in Jupyter Notebook**
-
-| **Step**|**Execution of the project was carried out as given in the following steps :** |
-| :--------|:-------- | 
-|1| Validated and rectified the data types of the features and analysed their statistical properties|
-|2|Performed Random Sample Imputation for Categorical columns and KNN imputation for Numerical Columns
-|3| Performed EDA on data - checked the distribution of data using NPP, KDE plots , visualized relation between the different features|
-|4|Performed Mean , Target Guided Ordinal , One-hot and frequency encoding on the various categorical features, according to the type and information of features
-|6|Visualized Outliers via BoxPlots and removed the possible Outliers
-|7| Created new features from existing date columns
-|8| Visualized the correlation matrix and removed highly correlated columns
-|9| Performed Feature Selection using various methods like SFS , SBS ,RFE,CHI2 etc. and compared overall performance of the individual features
-|10|Chose 20 features based on feature v/s performance graph from SFS
-|11| Handled the Imbalance in the dataset by using SMOTE
-|12|Clustered the dataset into 4 clusters , using Kmeans and the kmeans-elbow graph
-|13| Metric used to evaluate models - Recall and Accuracy
-|14| Trained and tested various models on the data clusters and for each cluster , chose the model which gave highest Accuracy and Recall
-|15|By analyzing the performance of the models , it was unsderstood that the Models generalized better after clustering , hence we chose different models for each cluster
-|16|Performed Hyperparameter Tuning on all the four models
-|17|Cluster 1 - Model : Random Forest :Recall-90.34% Accuracy-89.51%
-|18|Cluster 2 - Model : KNN :Recall-100% Accuracy-100%
-|19|Cluster 3 - Model : Adaboost :Recall-100% Accuracy-96.55%
-|20|Cluster 4 - Model : Logistic Regression :Recall-100% Accuracy-87.5%
-|21| Exported all required models via pickle
-
-
-### (B) **Building the Application**
-
-| **Step**|**Execution of the project was carried out as given in the following steps :** |
-| :--------|:-------- | 
-|1| Built Log Writer Package , for writing the log messages in a centralised log file
-|2| Built the Data Formatter Package, for aggregating the inputs from the html form ; converting the input to a dataframe
-|3| Buil the Valaidator Package , to validate the data types of inputs , column names , length etc.
-|4| Built the Preprocessing Package ,for imputation , encoding and other transformations
-|5| Built Package for finding the cluster to which the input data belongs ; exporting the model trained for the corresponding cluster
-|5| Built REST API using Flask framework ; created routes for home page and prediction , by calling all the required modules 
-|6| Created the requirements.txt , Procfile , etc. and all other requirements to be satisfied for deployment.
-|7| Built html pages for data input and results prediction
-|8| Deployed the model on Heroku via Git Bash terminal
-
 <hr>
 
 ## Screenshots
 
-### **Enter the required inputs in home page and press predict button**
+### **Upload Brain MRI Scan**
 
-<img src="static\images\home fraud.PNG" alt="FIFA" />
+<img src="static\images\mri-home.PNG" alt="FIFA" />
 
 ### **The Prediction Page**
 
-<img src="static\images\result fraud.PNG" alt="FIFA" />
+<img src="static\images\mri-pred.PNG" alt="FIFA" />
 
 <hr>
   
