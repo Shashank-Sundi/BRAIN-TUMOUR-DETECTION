@@ -195,3 +195,26 @@ DATE : 2022-01-07 --- TIME : 09:55:27 		 Image shape changed successfully
 DATE : 2022-01-07 --- TIME : 09:55:27 		 Image Transforms applied Successfully 
 DATE : 2022-01-07 --- TIME : 09:55:27 		 Model Loaded Successfully 
 DATE : 2022-01-07 --- TIME : 09:55:26 		 Collected Base64 string 
+DATE : 2022-01-07 --- TIME : 12:26:30 		 Rendered Home Page Successfully 
+DATE : 2022-01-07 --- TIME : 12:27:13 		 Image converted to Array 
+DATE : 2022-01-07 --- TIME : 12:27:13 		 Image converted to Tensor 
+DATE : 2022-01-07 --- TIME : 12:27:14 		 Image shape changed successfully 
+DATE : 2022-01-07 --- TIME : 12:27:15 		 Image Transforms applied Successfully 
+DATE : 2022-01-07 --- TIME : 12:27:15 		 Model Loaded Successfully 
+DATE : 2022-01-07 --- TIME : 12:27:13 		 Collected Base64 string 
+DATE : 2022-01-07 --- TIME : 12:37:45 		 Rendered Home Page Successfully 
+DATE : 2022-01-07 --- TIME : 12:38:05 		 Image converted to Array 
+DATE : 2022-01-07 --- TIME : 12:38:08 		 Image converted to Tensor 
+DATE : 2022-01-07 --- TIME : 12:38:09 		 Image shape changed successfully 
+DATE : 2022-01-07 --- TIME : 12:38:16 		 Image Transforms applied Successfully 
+DATE : 2022-01-07 --- TIME : 12:38:23 		 Model Loaded Successfully 
+DATE : 2022-01-07 --- TIME : 12:38:02 		 Collected Base64 string 
+DATE : 2022-01-07 --- TIME : 12:38:23 		 Prediction Successful 
+DATE : 2022-01-07 --- TIME : 12:38:03 		 Base64 String Converted/Decoded to Image 
+DATE : 2022-01-07 --- TIME : 12:39:09 		 Image converted to Array 
+DATE : 2022-01-07 --- TIME : 12:39:12 		 Image converted from grayscale to rgb 
+DATE : 2022-01-07 --- TIME : 12:39:13 		 Image converted to Tensor 
+DATE : 2022-01-07 --- TIME : 12:39:14 		 Image shape changed successfully 
+DATE : 2022-01-07 --- TIME : 12:39:18 		 Image Transforms applied Successfully 
+DATE : 2022-01-07 --- TIME : 12:39:22 		 Model Loaded Successfully 
+DATE : 2022-01-07 --- TIME : 12:39:02 		 Collected Base64 string 
