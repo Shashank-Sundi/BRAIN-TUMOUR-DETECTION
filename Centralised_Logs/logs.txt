@@ -164,3 +164,34 @@ DATE : 2022-01-06 --- TIME : 23:22:40 		 Image shape changed successfully
 DATE : 2022-01-06 --- TIME : 23:22:43 		 Image Transforms applied Successfully 
 DATE : 2022-01-06 --- TIME : 23:22:51 		 Model Loaded Successfully 
 DATE : 2022-01-06 --- TIME : 23:22:30 		 Collected Base64 string 
+DATE : 2022-01-07 --- TIME : 09:53:24 		 Rendered Home Page Successfully 
+DATE : 2022-01-07 --- TIME : 09:53:48 		 Image converted to Array 
+DATE : 2022-01-07 --- TIME : 09:53:48 		 Image converted to Tensor 
+DATE : 2022-01-07 --- TIME : 09:53:49 		 Image shape changed successfully 
+DATE : 2022-01-07 --- TIME : 09:53:49 		 Image Transforms applied Successfully 
+DATE : 2022-01-07 --- TIME : 09:53:50 		 Model Loaded Successfully 
+DATE : 2022-01-07 --- TIME : 09:53:47 		 Collected Base64 string 
+DATE : 2022-01-07 --- TIME : 09:53:52 		 Prediction Successful 
+DATE : 2022-01-07 --- TIME : 09:53:48 		 Base64 String Converted/Decoded to Image 
+DATE : 2022-01-07 --- TIME : 09:54:16 		 Image converted to Array 
+DATE : 2022-01-07 --- TIME : 09:54:16 		 Image converted to Tensor 
+DATE : 2022-01-07 --- TIME : 09:54:16 		 Image shape changed successfully 
+DATE : 2022-01-07 --- TIME : 09:54:16 		 Image Transforms applied Successfully 
+DATE : 2022-01-07 --- TIME : 09:54:16 		 Model Loaded Successfully 
+DATE : 2022-01-07 --- TIME : 09:54:15 		 Collected Base64 string 
+DATE : 2022-01-07 --- TIME : 09:54:16 		 Prediction Successful 
+DATE : 2022-01-07 --- TIME : 09:54:15 		 Base64 String Converted/Decoded to Image 
+DATE : 2022-01-07 --- TIME : 09:54:37 		 Image converted to Array 
+DATE : 2022-01-07 --- TIME : 09:54:37 		 Image converted to Tensor 
+DATE : 2022-01-07 --- TIME : 09:54:37 		 Image shape changed successfully 
+DATE : 2022-01-07 --- TIME : 09:54:37 		 Image Transforms applied Successfully 
+DATE : 2022-01-07 --- TIME : 09:54:37 		 Model Loaded Successfully 
+DATE : 2022-01-07 --- TIME : 09:54:37 		 Collected Base64 string 
+DATE : 2022-01-07 --- TIME : 09:54:38 		 Prediction Successful 
+DATE : 2022-01-07 --- TIME : 09:54:37 		 Base64 String Converted/Decoded to Image 
+DATE : 2022-01-07 --- TIME : 09:55:27 		 Image converted to Array 
+DATE : 2022-01-07 --- TIME : 09:55:27 		 Image converted to Tensor 
+DATE : 2022-01-07 --- TIME : 09:55:27 		 Image shape changed successfully 
+DATE : 2022-01-07 --- TIME : 09:55:27 		 Image Transforms applied Successfully 
+DATE : 2022-01-07 --- TIME : 09:55:27 		 Model Loaded Successfully 
+DATE : 2022-01-07 --- TIME : 09:55:26 		 Collected Base64 string 
