@@ -37,12 +37,12 @@ Brain Tumors are complex. There are a lot of abnormalities in the sizes and loca
 
 ## Results
 
-|**Models**| **VGG-19** | **Alexnet**  | **Resnet-101**  | **Resnet-50** | **Inception-V3** |**Effiecient Net**|**DenseNet**|**Googlenet**|
+|**Models**| **VGG-19** |**Alexnet**  |**Effiecient Net_b0**|**DenseNet 121**|  **Resnet-101**  |**Googlenet**| **Inception-V3** | **Resnet-50** |
 | :---| :-------- | :------- | :------------------------- | :-------| :-------| :-------| :-------| :-------|
-|**Accuracy**|89.91|89.45|82.03|82.27|81.47|81.35|81.57|78.78|
-|**Recall**|89.95|89.90|83.68|83.22|82.81|82.41|81.66|80.77|
-|**Precision**|90.29|88.83|80.66|80.11|81.16|82.99|79.56|78.37|
-|**Model Size**|549mb|233mb|171mb|97.8mb|104mb|255mb|30.8mb|49.7mb|
+|**Accuracy**|88.06|87.38|84.79|84.49|84.83|84.35|82.50|82.84|
+|**Recall**|88.47|87.33|86.92|86.11|86.07|84.94|83.60|83.03|
+|**Precision**|87.87|87.06|83.60|83.53|84.18|84.80|82.59|82.7|
+|**Model Size**|549mb|233mb|20mb|64mb|180mb|25mb|92mb|50mb|
 
 <hr>
 
