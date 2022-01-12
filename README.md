@@ -28,7 +28,7 @@
 
 ## Project Description
 
-Brain Tumors are complex. There are a lot of abnormalities in the sizes and location of the brain tumors. This makes it really difficult for complete understanding of the nature of the tumor. Also, a professional Neurosurgeon is required for MRI analysis. Often times in developing countries the lack of skillful doctors and lack of knowledge about tumors makes it really challenging and time-consuming to generate reports from MRI. A manual examination can be error-prone due to the level of complexities involved in brain tumors and their properties.Hence , I've built this web page which will help to classify the type of tumor(if any) , based on results from the Densenet-121 retrained model.
+Brain Tumors are complex. There are a lot of abnormalities in the sizes and location of the brain tumors. This makes it really difficult for complete understanding of the nature of the tumor. Also, a professional Neurosurgeon is required for MRI analysis. Often times in developing countries the lack of skillful doctors and lack of knowledge about tumors makes it really challenging and time-consuming to generate reports from MRI. A manual examination can be error-prone due to the level of complexities involved in brain tumors and their properties.Hence , I've built this web page which will help to classify the type of tumor(if any) , based on results from various fine tuned pre-trained CNN models.
 
 <img src="static\images\national-cancer-institute-BDKid0yJcAk-unsplash.jpg" style="width: 1000px;
     height: 500px; object-fit: cover;
